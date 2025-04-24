@@ -1,0 +1,108 @@
+@import '@fontsource/inter/300.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AktivGroteskCorp-Light';
+  src: url('https://db.onlinewebfonts.com/t/0e979bd4a3c1c6ac788c0b53de32c581.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --forex-navy: #1A237E;
+  --forex-teal: #24475F;
+  --forex-green: #4CAF50;
+  --transition-speed: 0.3s;
+}
+
+body {
+  font-family: 'AktivGroteskCorp-Light', sans-serif;
+  background-color: #FFFFFF;
+  color: var(--forex-navy);
+}
+
+.central-module {
+  background: linear-gradient(135deg, var(--forex-navy) 0%, var(--forex-teal) 100%);
+  color: #FFFFFF;
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.central-module:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(26, 35, 126, 0.15);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all var(--transition-speed);
+}
+
+.glass-effect:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Vapi Button Styles */
+.vapi-btn {
+  position:absolute ;
+  top:67%;
+
+  transition: all 0.3s ease;
+}
+body > #vapi-support-btn {
+  visibility: hidden !important;
+}
+
+.vapi-btn-round {
+  border-radius: 9999px;
+}
+/* EDIT THE BUTTON HERE! */
+#phone-container .vapi-btn-is-idle {
+  transform: scale(1);
+  background: #fff !important;
+}
+
+.vapi-btn-is-active {
+  animation: pulse 2s infinite;
+}
+
+.vapi-btn-is-speaking {
+  animation: speaking 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(76, 175, 80, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+  }
+}
+
+@keyframes speaking {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 640px) {
+  .central-module {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}

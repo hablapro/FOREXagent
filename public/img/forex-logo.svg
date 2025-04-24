@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Base F -->
+  <path d="M15,10h22v5H20v5h15v5H20v15h-5V10z" fill="#1A237E"/>
+  <!-- O -->
+  <circle cx="47" cy="25" r="15" fill="#4CAF50"/>
+  <!-- Rest of FOREX -->
+  <path d="M65,10h5v12h10V10h5v30h-5V27H70v13h-5V10z" fill="#1A237E"/>
+  <path d="M90,10h18v5h-13v8h12v5h-12v7h13v5H90V10z" fill="#1A237E"/>
+  <path d="M115,10h5v30h-5V10z" fill="#1A237E"/>
+  <!-- .com part -->
+  <path d="M135,15h4l9,25h-5l-1.5-5h-9L131,40h-5L135,15z M136,30h6l-3-10L136,30z" fill="#1A237E"/>
+  <circle cx="150" cy="37" r="3" fill="#1A237E"/>
+  <path d="M158,20h5v2c1-1.5,3-2.5,5-2.5c4,0,7,3,7,7.5v13h-5V27c0-2-1-4-3-4s-4,2-4,4v13h-5V20z" fill="#1A237E"/>
+  <path d="M180,15c0,1.5-1.5,3-3,3s-3-1.5-3-3s1.5-3,3-3S180,13.5,180,15z M175,20h5v20h-5V20z" fill="#1A237E"/>
+</svg> 
