@@ -134,11 +134,10 @@ function App() {
 
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-normal mb-4">
-              Take your forex trading to new heights
+            Take Your Forex Strategy to the Next Level
             </h2>
             <p className="text-xl text-white/80">
-            Take your forex trading to new heights
-            </p>
+            Speak with a trading specialist and unlock platform insights built for your success.</p>
           </div>
 
           <div className="glass-effect rounded-2xl p-8 mb-10 ">
