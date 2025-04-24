@@ -126,7 +126,7 @@ function App() {
         <div id="phone-container" className="central-module rounded-3xl p-8 md:p-12 mb-8">
           <div className="flex items-left gap-6 mb-10">
             <img
-              src="/FOREXAgent/img/forex-logo.png"
+              src="/img/forex-logo.png"
               alt="Forex.com Logo"
               className="w-[200px] md:w-[250px] h-full mx-auto relative"
             />
